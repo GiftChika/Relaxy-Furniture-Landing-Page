@@ -10,12 +10,29 @@
     width: 100%;
     height: 100vh;
 }
-@media (min-width:1024px) {
+@media (width:768px) {
     .header{
         background-image: url(/img/modern-living-room-interior-2021-09-02-08-41-17-utc.png);
         background-size: cover;
-        background-position: center;
+        background-position: center center;
+        background-repeat: no-repeat;
         width: 100%;
-        height: 100vh;
+        height: 100%;
     } 
+}
+@media (max-width:640px) {
+    .header{
+        background-image: url(/img/modern-living-room-interior-2021-09-02-08-41-17-utc.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    } 
+}
+@media (min-width: 300px) {
+    .open{
+      display: block;
+    }
+    
 }

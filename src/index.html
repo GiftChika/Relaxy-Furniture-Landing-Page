@@ -11,9 +11,9 @@
     <!---------------------Header---------------------->
     <div id="home" class="header relative font-poppins bg-slate-200  ">
         <nav class=" flex flex-row justify-between pt-7 pb-8 px-14 items-center ">
-            <div class="left-side lg:text-[20px] xl:text-[30px] tracking-widest  text-[white] font-bold">RELAXY</div>
-            <div class="right-side  ">
-                <ul class="flex flex-row lg:gap-[40px] xl:gap-[70px] text-[20px] text-[white] font-semibold items-center">
+            <div class="left-side md:text-[20px] lg:text-[20px] xl:text-[30px] tracking-widest  text-[white] font-bold">RELAXY</div>
+            <div class="right-side    ">
+                <ul class=" lg:flex hidden md:hidden xl:visible lg:visible 2xl:visible flex-row lg:gap-[40px] xl:gap-[70px] text-[20px] text-[white] font-semibold items-center">
                     <li class="hover:border-b-2 border-white"><a href="">Home</a></li>
                     <li class="hover:border-b-2 border-white"><a href="#about">About</a></li>
                     <li class="hover:border-b-2 border-white"><a href="#product">Products</a></li>
@@ -21,30 +21,44 @@
                     <li class=" bg-yellow-600 py-3 rounded-md px-6 text-white"><a href="#contact">Contact us</a></li>
                 </ul>
             </div>
+            <div class="getBtn  xl:hidden lg:hidden 2xl:hidden"><img class="md:w-[40px]" src="/img/align-right (1).png" alt=""></div>
+            <div class=" menu  xl:z-50 xl:hidden lg:hidden hidden   absolute  left-0 py-4 px-3  top-[80px] z-50 gap-[50px] w-[100%] lg:left-[2px]  lg:top-[125px] lg:py-9 lg:px-6  flex-row lg:w-[1022px] lg:justify-between  bg-white rounded-md">   
+                <div class="cancel flex flex-row items-end justify-end">
+                    <img class="" src="/img/Vector (1).png" alt="cancel botton">
+                </div>
+                <ul class=" flex flex-col font-[600] gap-[50px] items-start lg:gap-[70px] pt-5 pb-7 lg:pt-10">
+                    <li class="hover:border-b-2 border-white"><a href="">Home</a></li>
+                    <li class="hover:border-b-2 border-white"><a href="#about">About</a></li>
+                    <li class="hover:border-b-2 border-white"><a href="#product">Products</a></li>
+                    <li class="hover:border-b-2 border-white"><a href="#testimonial">Testimonials</a></li>
+                    <li class=" bg-yellow-600 py-3 rounded-md items-center px-6 text-white"><a href="#contact">Contact us</a></li>
+                </ul>
+                
+            </div>
         </nav>
-        <div class="text-area pt-  flex flex-col pt-[200px] items-center justify-center pr-10">
-            <div class="flex flex-col items-center  pb-12   pr-[50px]">
-                <div class="font-bold lg:text-[50px] xl:text-[70px] text-center   pt-[80px] text-white  ">Furnitures and Interiors for your comfort</div>
-            <div class="text-center text-white text-[18px] font-medium">We turn every space into a master piece </div>
-            <div class="px-10 py-4 rounded-md bg-[#e8e8e8] bg-opacity-50 text-white font-bold mt-[70px] ">Shop Now</div>
+        <div class="text-area w-full  flex flex-col md:pt-[10px] lg:pt-[200px] 2xl:pt-[200px] xl:pt-[200px]  items-center justify-center ">
+            <div class="flex flex-col items-center text-center pb-12   ">
+                <div class="font-bold text-[20px] md:text-[30px] lg:text-[50px] xl:text-[70px]  text-center md:pt-[40px]  lg:pt-[80px] 2xl:pt-[80px]   xl:pt-[80px] text-white  ">Furnitures and Interiors for your comfort</div>
+            <div class="text-center text-[10px] text-white md:text-[18px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px] font-medium">We turn every space into a master piece </div>
+            <div class=" px-4 text-[16px] py-2 xl:px-10 2xl:px-10 md:px-10 lg:px-10 xl:py-4 2xl:py-4 lg:py-4 md:py-4 rounded-md bg-[#e8e8e8] bg-opacity-50 text-white font-bold md:mt-[40px] lg:mt-[70px] 2xl:mt-[70px] xl:mt-[70px] ">Shop Now</div>
             </div>
         </div>
-       <div class="bg-emerald-950 lg:left-[7%] xl:left-[10%] 2xl:left-[20%] py-[30px] rounded-lg text-center lg:top-[900px] 2xl:top-[970px] xl:top-[970px]  absolute lg:w-[900px] 2xl:w-[1200px] xl:w-[1200px] justify-center lg:gap-[70px] xl:gap-[90px] 2xl:gap-[90px] items-center flex flex-row text-white">
+       <div class="bg-emerald-950 left-[20%] md:left-[8%] lg:left-[7%] xl:left-[10%] 2xl:left-[20%] py-[30px] rounded-lg text-center lg:top-[900px] 2xl:top-[970px] xl:top-[970px]  absolute lg:w-[900px] 2xl:w-[1200px] xl:w-[1200px] justify-center md:gap-[50px] lg:gap-[70px] xl:gap-[90px] 2xl:gap-[90px] items-center grid grid-cols-2 gap-11 md:flex md:flex-row text-white">
         <div class="flex flex-col">
             <div class="text-[40px] font-semibold">7</div>
             <div class="">Year <br> Experience</div>
         </div>
-        <div><img src="/img/Line 31.png" alt=""></div>
+        <div class="hidden md:visible lg:visible xl:visible 2xl:visible"><img src="/img/Line 31.png" alt=""></div>
         <div class="flex flex-col">
             <div class="text-[40px] font-semibold">2</div>
             <div class="">Opened in <br> the Country</div>
         </div>
-        <div><img src="/img/Line 31.png" alt=""></div>
+        <div class=" hidden md:visible lg:visible xl:visible 2xl:visible"><img src="/img/Line 31.png" alt=""></div>
         <div class="flex flex-col">
             <div class="text-[40px] font-semibold">10k+</div>
             <div class="">Furniture<br> Sold</div>
         </div>
-        <div><img src="/img/Line 31.png" alt=""></div>
+        <div class="hidden md:visible lg:visible xl:visible 2xl:visible"><img src="/img/Line 31.png" alt=""></div>
         <div class="flex flex-col">
             <div class="text-[40px] font-semibold">260+</div>
             <div class="">Variant<br> Furniture</div>
@@ -52,15 +66,15 @@
        </div>         
     </div>
     <!--------------------------About-------------------->
-    <div id="about" class="about flex flex-col items-center lg:pt-[200px] 2xl:pt-[250px] xl:pt-[250px]">
+    <div id="about" class="about flex flex-col items-center pt-[380px] md:pt-[220px] lg:pt-[200px] 2xl:pt-[250px] xl:pt-[250px]">
         <div class="font-semibold text-5xl text-[#23262F] flex">About</div>
-        <div class=" flex flex-row justify-between lg:gap-[90px] 2xl:gap-[200px] xl:gap-[200px] font-poppins px-[120px] ">
+        <div class=" flex flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-between pt-8 gap-7  lg:gap-[90px] 2xl:gap-[200px] xl:gap-[200px] font-poppins px-[120px] ">
             <div class="left-side ">
-               <img class="lg:w-[500px] lg:h-[400px] xl:w-[554px] xl:h-[443px] 2xl:w-[554px] 2xl:h-[443px]" src=" /img/35_43_High Pillow Top Arm Sectional  Slipcovered Sofa with Cushion Back.jpg" alt="">
+               <img class="w-[300px] h-[150px] lg:w-[500px] lg:h-[400px] xl:w-[554px] xl:h-[443px] 2xl:w-[554px] 2xl:h-[443px]" src=" /img/35_43_High Pillow Top Arm Sectional  Slipcovered Sofa with Cushion Back.jpg" alt="">
             </div>
-            <div class="right-side flex flex-col ">
-                <div class="xl:text-4xl 2xl:text-4xl lg:text-2xl lg:pt-5 2xl:pt-8 xl:pt-8">WELCOME TO RELAXY <br> FURNITURE AND INTERIORS </div>
-                <div class="xl:text-[18px] 2xl:text-[18px] lg:text-[15px] lg:pt-3 2xl:pt-5 xl:pt-5">Relaxy Funiture and Interiors is an Interior Designing, Decorating <br>
+            <div class="right-side flex flex-col text-center md:text-center lg:text-start xl:text-start 2xl:text-start ">
+                <div class="xl:text-4xl 2xl:text-4xl lg:text-2xl lg:pt-5 font-medium 2xl:pt-8 xl:pt-8">WELCOME TO RELAXY <br> FURNITURE AND INTERIORS </div>
+                <div class="xl:text-[18px] text-[14px] text-center 2xl:text-[18px] lg:text-[15px] w-full lg:pt-3 2xl:pt-5 xl:pt-5">Relaxy Funiture and Interiors is an Interior Designing, Decorating <br>
                     and Furniture manufacturing Company base in Lagos, Nigeria, <br>
                     We examplify creativity and create ambience thats is impressive <br> 
                     and inspiring to all. Be it home or office, we have solution for all <br> our
@@ -76,7 +90,7 @@
         <div class="font-semibold text-5xl text-[#23262F] flex pt-20">All Products</div>
         <div class="text-[16px] text-center pt-6">The products we provide only for you as our service are selected from the <br>
             best products with number 1 quality in the world</div>
-        <div class="pt-10 list grid lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 gap-[100px] items-baseline lg:px-5 ">
+        <div class="pt-10 list grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 gap-[100px] items-baseline lg:px-5 ">
             <div class="lg:w-[200px] xl:w-[300px] 2xl:w-[300px] flex flex-col justify-center items-center">
                 <div><img src="/img/Images (3).png" alt=""></div>
                 <div class="flex flex-row items-end gap-20 bg-slate-300 ">
@@ -166,11 +180,11 @@
    </div>
    <!------------------------Testimonials-->
    <div id="testimonial" class="flex flex-col items-center pt-[50px] bg-emerald-950 mt-[50px] pb-[30px]">
-    <div class=" text-[64px] text-white">What do customers say...</div>
+    <div class=" md:text-[45px] xl:text-[64px] text-[20px]  2xl:text-[64px]  lg:text-[64px] text-white">What do customers say...</div>
     <div class="">
-        <div class="flex flex-row pt-8 gap-9">
+        <div class="flex flex-col md:flex-row xl:flex-row lg:flex-row 2xl:flex-row pt-8 gap-9">
             <div><img class="w-[300px] h-[300px] rounded-full" src="/img/prince-akachi-LWkFHEGpleE-unsplash.jpg" alt=""></div>
-            <div class=" text-white">
+            <div class=" text-white px-4">
                 <div class="text-[60px] text-yellow-600">"</div>
                 <div class="text-[30px]">Amazing Service</div>
                 <div>Since the online marketplace can be a scary place, the <br> presence of customer reviews on an online store
@@ -187,7 +201,7 @@
     </div>
    </div>
     <!-----------------------Contact-->
-    <div id="contact" class="contact flex flex-row lg:px-5 items-center justify-between xl:px-[125px] 2xl:px-[250px] pt-[70px]">
+    <div id="contact" class="contact flex flex-col  md:flex-col xl:flex-row  2xl:flex-row  lg:flex-row lg:px-5 items-center justify-between xl:px-[125px] 2xl:px-[250px] pt-[70px]">
         <div class="leftside flex flex-col">
             <div class="flex flex-row gap-3">
                 <div><img class="w-[200px] h-[300px]" src="/img/Rectangle 5 (1).png" alt=""></div>
@@ -199,23 +213,23 @@
             </div>
             
         </div>
-        <div class="rightside">
+        <div id="contact" class="rightside">
             
                 <div class="font-[600] text-[30px] lg:text-[36px] xl:text-[36px] pt-[30px] lg:pt-[55px] xl:pt-[55px] flex flex-row items-center   ">Contact us</div>
                 <div class="text-[20px] pt-4">Our team would love to hear from you!</div>
                 <div class="font-[400] text-[20px] pt-6">Email address</div>
-                <div class=""><input class="border-[2px] pl-4 lg:pl-4  xl:pl-4 mt-3 border-[#1E1E1E] lg:text-[20px] rounded-md w-[320px] h-[50px] lg:w-[500px] lg:h-[50px] xl:w-[510px] xl:h-[50px]" type="text" placeholder="Enter email address"></div>
+                <div class=""><input class="border-[2px] pl-4 lg:pl-4  xl:pl-4 mt-3 border-[#1E1E1E] lg:text-[20px] rounded-md w-[300px] h-[50px] lg:w-[500px] lg:h-[50px] xl:w-[510px] xl:h-[50px]" type="text" placeholder="Enter email address"></div>
                 <div class="font-[400] text-[20px] pt-4">Description</div>
-                <div class=""><textarea class="border-[2px] mt-3 pt-2 pl-4 border-black w-[320px] xl:w-full lg:w-full  rounded-md" placeholder="Describe message" name="text" id="" cols="60" rows="10"></textarea></div>
+                <div class=""><textarea class="border-[2px] mt-3 pt-2 pl-4 border-black w-[300px] xl:w-full lg:w-full  rounded-md" placeholder="Describe message" name="text" id="" cols="60" rows="10"></textarea></div>
                 <div class="font-[400] heartbeat text-[20px] text-center mt-7 bg-emerald-950 text-white py-2">Send</div>
             
         </div>
 
     </div>
     <!-----------------------footer section-------------------->
-    <div class="bg-gray-950 mt-[70px] lg:px-6 xl:px-[125px] 2xl:px-[200px] pt-10 flex flex-col pb-[30px]">
+    <div class="bg-gray-950 mt-[70px] lg:px-6 md:px-6 xl:px-[125px] 2xl:px-[200px] pt-10 flex flex-col pb-[30px]">
         <div class="flex flex-row justify-between">
-            <div class="text-[30px] tracking-widest  text-[white] font-bold">RELAXY</div>
+            <div class="md:text-[30px] tracking-widest  text-[white] font-bold">RELAXY</div>
             <div class="flex flex-row gap-7">
                 <div><img src="/img/Medium.png" alt=""></div>
                 <div><img src="/img/facebk.png" alt=""></div>
@@ -255,5 +269,6 @@
         <div class="copy text-white pt-[50px] text-center">© Relaxy 2022 - All Rights Reserved</div>
         <div class=" text-white underline pt-4 text-center"><a href="#home">Back to the top</a></div>
     </div>
+    <script src="/script.js"></script>
 </body>
 </html>
